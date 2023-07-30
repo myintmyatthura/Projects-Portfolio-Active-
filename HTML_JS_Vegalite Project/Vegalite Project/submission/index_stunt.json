@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A scatterplot showing body mass and flipper lengths of penguins.",
+    "title": "Correlation between Stunting and Hunger Index",
+    "data": {
+      "url": "https://raw.githubusercontent.com/myintmyatthura/FIT3179-Assignment-2/main/scatter.csv"
+    },
+    "config": {"background": "ghostwhite"},
+    "params": [{
+        "name": "choose",
+        "select": {"type": "point", "fields": ["Region"]},
+        "bind": {"input": "select", "options": [null, "Europe", "North America","Asia","Africa","South America"]}
+      }],
+      "height": 700,
+  "width": 1310,
+    "mark": {"type": "point", "filled": true, "size": 100},
+    "encoding": {
+      "x": {
+        "field": "Stunting",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      "y": {
+        "field": "Index",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      
+      "color": {
+        "condition": {
+            "param": "choose",
+      "field": "Region", "type": "nominal",
+      "scale": {"type": "linear","range":["purple","green","red","brown","red","darkblue"]} 
+        }
+    },
+    "shape": {"field": "Region", "type": "nominal"}
+}
+
+  }

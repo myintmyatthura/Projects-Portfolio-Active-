@@ -1,0 +1,317 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h13 {
+    color: black;
+    font-size: 108px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    text-align: center;
+    left: 185px;
+    margin-bottom: 40px;
+    border-style: solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: pink;
+    background-color: whitesmoke;
+    position: relative;
+    padding:10px;
+}
+
+h6 {
+    color: black;
+    font-size: 24px;
+    font-weight: 10;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 1400px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-style: solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: pink;
+    background-color: antiquewhite;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 { 
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 835px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: 45px;
+    border-style: solid;
+    border-color: pink;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+
+h5 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 350px;
+    text-align:center;
+    bottom: 610px;
+    margin: 0 auto;
+    z-index: 1;
+    
+}
+
+body {
+    background-color: white;
+    background-image: url("flower.jpeg")
+}
+
+
+#bar_graph {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 1430px;
+    align-items: center;
+    position: relative;
+    z-index: -2;
+    top: 80px;
+
+}
+
+
+
+
+p {
+    color: black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    border-style: solid;
+    border-color: pink;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 10;
+  
+}
+
+body {
+    background-color: lightblue;
+  }
+
+#map {
+    margin-top: 0px;
+    width: 1300px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    width: 1430px;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+
+}
+
+#ann {
+    position:absolute;
+    display: block;
+    align-items: center;
+}
+
+h2 { 
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 535px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: pink;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+
+#scatter {
+    margin-top: 0px;
+    width: 1300px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    width: 1435px;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    top: 100px;
+
+}
+
+
+h3 { 
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 835px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: pink;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    top: 30px;
+    
+
+}
+
+#map_3 {
+    margin-top: 0px;
+    width: 1300px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    width: 1435px;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+
+}
+
+h4 { 
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: pink;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+
+h7 {
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 350px;
+    text-align:center;
+    bottom: 580px;
+    border-style: solid;
+    border-color: black;
+    background-color: aliceblue;
+    padding-left: 5px;
+    margin: 0 auto;
+    z-index: 1;
+
+
+}
+
+h8 {
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 880px;
+    text-align:center;
+    bottom: 620px;
+    border-style: solid;
+    border-color: black;
+    background-color: aliceblue;
+    padding-left: 5px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+h9 {
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 280px;
+    text-align:center;
+    bottom: 320px;
+    border-style: solid;
+    border-color: black;
+    background-color: aliceblue;
+    padding-left: 5px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+h10 {
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 480px;
+    text-align:center;
+    bottom: 380px;
+    border-style: solid;
+    border-color: black;
+    background-color: aliceblue;
+    padding-right: 0px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+h11{
+    color: black;
+    font-size: 18px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 510px;
+    text-align: center;
+    bottom: 320px;
+    padding-right: 0px;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+h12{
+    color: black;
+    font-size: 17px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 140px;
+    bottom: 650px;
+    padding-right: 0px;
+    margin: 0 auto;
+    z-index: 1;
+}
+

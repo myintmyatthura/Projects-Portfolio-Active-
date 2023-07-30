@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "5 Major Countries",
+  "height": 700,
+  "width": 1328,
+  "data": {
+    "url": "https://raw.githubusercontent.com/myintmyatthura/FIT3179-Assignment-2/main/stunting_children.csv"
+  },
+  "config": {"background": "floralwhite"},
+  "transform": [{"filter": "datum.symbol!=='IBM'"}],
+  "encoding": {
+    "color": {"field": "Country", "type": "nominal", "legend": null}
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "Stunting",
+          "type": "quantitative",
+          "title": "Stunting in Percentage"
+        },
+        "tooltip": [{"field": "Stunting", "type": "quantitative"}]
+      }
+    },
+    {
+      "encoding": {
+        "x": {"aggregate": "max", "field": "Year", "type": "temporal"},
+        "y": {
+          "aggregate": {"argmax": "Year"},
+          "field": "Stunting",
+          "type": "quantitative"
+        }
+      },
+      "layer": [
+        {"mark": {"type": "circle"}},
+        {
+          "mark": {"type": "text", "align": "left", "dx": 4},
+          "encoding": {"text": {"field": "Country", "type": "nominal"}}
+        }
+      ]
+    }
+  ]
+}
